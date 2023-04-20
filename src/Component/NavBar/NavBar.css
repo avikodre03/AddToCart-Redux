@@ -1,0 +1,57 @@
+.Nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+   
+    background-color: black;
+    padding-left: 5rem;
+    position: relative;
+}
+
+.Nav h2 {
+    color: white;
+    margin: 0 4rem;
+    margin-right: 6rem;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 4rem;
+    font-size: 1.2rem;
+
+}
+
+.Nav button {
+    height: 30px;
+    width: 100px;
+    margin: 0 4rem;
+    margin-left: 10rem;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.count {
+    border: 2px solid gray;
+    height: 22px;
+    width: 22px;
+    color: black;
+    padding-bottom: 3px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 295px;
+    top: 11px;
+    background-color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+}
